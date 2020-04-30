@@ -1,0 +1,5 @@
+# Schema for the configuration files of the Flashy+ theme.
+
+flashyplus.settings:
+  type: theme_settings
+  label: 'Flashy+ settings'

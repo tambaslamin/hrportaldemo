@@ -1,0 +1,16 @@
+/**
+ * @file
+ * Green color styling for Flashy+ for Drupal 8.
+ *
+ * $base: #72a732;
+ */
+:root {
+  --mt-foreground-color: 225, 6%, 13%;
+  --mt-foreground-color-contrast: 0, 0%, 100%;
+  --mt-base-color-lightness: 75%;
+  --mt-dark-color-lightness: 65%;
+  --mt-base-color: 135, 55%, var(--mt-base-color-lightness);
+  --mt-dark-color: 135, 55%, var(--mt-dark-color-lightness);
+  --mt-link-color: 346, 70%, 40%;
+  --mt-link-color-hover: 346, 70%, 30%;
+}

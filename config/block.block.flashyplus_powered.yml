@@ -1,0 +1,22 @@
+uuid: 0c4c1bad-84a9-472c-999b-6d6c00c3a20c
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - flashyplus
+_core:
+  default_config_hash: OTXgJBfJof9zSXw-sytIPjv8xVaNmstng1cJQv5Oye8
+id: flashyplus_powered
+theme: flashyplus
+region: sub_footer_first
+weight: -7
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  provider: system
+  label_display: '0'
+visibility: {  }

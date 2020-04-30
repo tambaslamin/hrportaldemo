@@ -1,0 +1,14 @@
+/**
+ * @file
+ * Orange color styling for Flashy+ for Drupal 8.
+ */
+:root {
+  --mt-foreground-color: 225, 6%, 13%;
+  --mt-foreground-color-contrast: 0, 0%, 100%;
+  --mt-base-color-lightness: 80%;
+  --mt-dark-color-lightness: 70%;
+  --mt-base-color: 32, 95%, var(--mt-base-color-lightness);
+  --mt-dark-color: 32, 85%, var(--mt-dark-color-lightness);
+  --mt-link-color: 214, 80%, 50%;
+  --mt-link-color-hover: 214, 80%, 40%;
+}

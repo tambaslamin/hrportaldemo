@@ -1,0 +1,17 @@
+/**
+ * @file
+ * Yellow color styling for Flashy+.
+ *
+ * Base color: #fbbd04
+ * Dark color: #f1b604
+ */
+:root {
+  --mt-foreground-color: 225, 6%, 13%;
+  --mt-foreground-color-contrast: 0, 0%, 100%;
+  --mt-base-color-lightness: 50%;
+  --mt-dark-color-lightness: calc(var(--mt-base-color-lightness) * 0.96);
+  --mt-base-color: 45, 97%, var(--mt-base-color-lightness);
+  --mt-dark-color: 45, 97%, var(--mt-dark-color-lightness);
+  --mt-link-color: 195, 89%, 28%;
+  --mt-link-color-hover: 205, 74%, 27%;
+}

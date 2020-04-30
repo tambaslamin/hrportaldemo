@@ -1,0 +1,22 @@
+uuid: 6bfc0bb6-c986-4dc6-9a1d-a1e04333b39a
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - flashyplus
+_core:
+  default_config_hash: SSxy910XVWerQwrKKvvSndu8CZXnPKX-0rCbM37e8zc
+id: flashyplus_messages
+theme: flashyplus
+region: system_messages
+weight: -6
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  provider: system
+  label_display: '0'
+visibility: {  }

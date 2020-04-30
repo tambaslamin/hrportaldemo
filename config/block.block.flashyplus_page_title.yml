@@ -1,0 +1,20 @@
+uuid: 896cb651-07e4-4862-bac0-f964158aeb7f
+langcode: en
+status: true
+dependencies:
+  theme:
+    - flashyplus
+_core:
+  default_config_hash: 4TTU7AGCx7e_p07c_3pk4SPAkWCFlPYuuIw8gKyoAPM
+id: flashyplus_page_title
+theme: flashyplus
+region: hero_top
+weight: -5
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  provider: core
+  label_display: '0'
+visibility: {  }

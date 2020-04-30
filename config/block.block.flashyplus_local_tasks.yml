@@ -1,0 +1,22 @@
+uuid: 50f8d589-28b7-4d68-8e07-ffaf9a3afaf9
+langcode: en
+status: true
+dependencies:
+  theme:
+    - flashyplus
+_core:
+  default_config_hash: GTcewFff5fklljoMZ79ePLKPkxF7pqHeobKwK0H4vbw
+id: flashyplus_local_tasks
+theme: flashyplus
+region: content
+weight: -7
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }

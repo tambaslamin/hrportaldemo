@@ -1,0 +1,22 @@
+uuid: 5441030d-aea4-44da-b052-0d42cdd4b12f
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - flashyplus
+_core:
+  default_config_hash: KvVetD22VtlxcyBAY-5uEh2YGLxAbhbdltp0wOJqzAA
+id: flashyplus_help
+theme: flashyplus
+region: content
+weight: -7
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }

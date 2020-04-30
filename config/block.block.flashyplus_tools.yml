@@ -1,0 +1,27 @@
+uuid: 6d461f94-7115-4761-a21c-bb1af55e609e
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.tools
+  module:
+    - system
+  theme:
+    - flashyplus
+_core:
+  default_config_hash: Y0Uu7slIIoIaq8kAJDr3bEI2LLtZuqdaDTNdzVpkyFQ
+id: flashyplus_tools
+theme: flashyplus
+region: footer_first
+weight: 0
+provider: null
+plugin: 'system_menu_block:tools'
+settings:
+  id: 'system_menu_block:tools'
+  label: Tools
+  provider: system
+  label_display: visible
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

@@ -1,0 +1,27 @@
+uuid: edf74984-16de-486d-9039-5b3cb5bc0893
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - system
+  theme:
+    - flashyplus
+_core:
+  default_config_hash: jGhodWGTmE8dPEir4872VpfUFW_Rmfo6_5tcBK1OWkQ
+id: flashyplus_main_menu
+theme: flashyplus
+region: header
+weight: -5
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: 'Main navigation'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 1
+  expand_all_items: false
+visibility: {  }

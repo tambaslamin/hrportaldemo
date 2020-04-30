@@ -1,0 +1,27 @@
+uuid: ebba50c9-6b89-4680-80e7-ce0ebbb620fd
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.footer
+  module:
+    - system
+  theme:
+    - flashyplus
+_core:
+  default_config_hash: 97QcaJvRa7E4_8O2Yu8pq8CYDtxJH2wCBJTmUBdbf5g
+id: flashyplus_footer
+theme: flashyplus
+region: footer
+weight: 0
+provider: null
+plugin: 'system_menu_block:footer'
+settings:
+  id: 'system_menu_block:footer'
+  label: 'Footer menu'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }
