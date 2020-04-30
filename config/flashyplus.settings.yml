@@ -9,7 +9,7 @@ bootstrap_remote_type: local
 breadcrumb_separator: fa-square
 breaking_effect: fade
 breaking_effect_time: '5'
-color_scheme: yellow
+color_scheme: blue
 global_corner_style: mt-style-sharp
 button_corner_style: mt-style-button-sharp
 form_corner_style: mt-style-form-sharp
@@ -256,3 +256,14 @@ rs_slideshow_internal_layout: fullscreen
 header_horizontal_paddings: 1
 _core:
   default_config_hash: hDbEu0b10l4AjcudCDY-fBwJ5N2k5X-fgzOyWh22iuY
+features:
+  node_user_picture: true
+  comment_user_picture: true
+  comment_user_verification: true
+  favicon: true
+logo:
+  use_default: false
+  path: themes/custom/flashyplus/usps_logo.png
+favicon:
+  use_default: true
+font_title: ''

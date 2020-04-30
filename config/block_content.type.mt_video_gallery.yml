@@ -1,0 +1,8 @@
+uuid: 10d19109-0ccf-486e-a1b4-c9d61b7d1fe6
+langcode: en
+status: true
+dependencies: {  }
+id: mt_video_gallery
+label: 'Video Gallery'
+revision: 0
+description: 'Display Youtube and Vimeo videos in a gallery slideshow block'

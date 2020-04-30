@@ -1,0 +1,31 @@
+uuid: 8bbabddd-f917-474f-807d-b4bc62156628
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:mt_icon_features:bdba9355-2aa9-4f5d-b9ef-f7932e8e3ea7'
+  module:
+    - block_content
+    - system
+  theme:
+    - flashyplus
+id: mt_greatfeaturesataglance_2
+theme: flashyplus
+region: highlighted
+weight: -25
+provider: null
+plugin: 'block_content:bdba9355-2aa9-4f5d-b9ef-f7932e8e3ea7'
+settings:
+  id: 'block_content:bdba9355-2aa9-4f5d-b9ef-f7932e8e3ea7'
+  label: 'Icon Features'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: /blocks
+    negate: false
+    context_mapping: {  }

@@ -1,0 +1,19 @@
+uuid: a63efdaa-d6a1-42f1-9684-0e59a0adcc86
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_mt_detailed_feature_title
+    - paragraphs.paragraphs_type.mt_detailed_feature
+id: paragraph.mt_detailed_feature.field_mt_detailed_feature_title
+field_name: field_mt_detailed_feature_title
+entity_type: paragraph
+bundle: mt_detailed_feature
+label: Title
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

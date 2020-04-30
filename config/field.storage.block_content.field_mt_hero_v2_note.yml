@@ -1,0 +1,20 @@
+uuid: d88c2f3a-6a4a-46ba-b54c-356a1e9cbc90
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_content
+    - text
+id: block_content.field_mt_hero_v2_note
+field_name: field_mt_hero_v2_note
+entity_type: block_content
+type: text
+settings:
+  max_length: 255
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

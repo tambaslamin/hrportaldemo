@@ -1,0 +1,31 @@
+uuid: 965dfb3c-ad4a-4e3e-ab92-37df07f733b5
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:587e1b38-ab6c-48a0-bc51-8ef31f4dd2fe'
+  module:
+    - block_content
+    - system
+  theme:
+    - flashyplus
+id: bethefirsttogetournewsandoffers
+theme: flashyplus
+region: featured
+weight: 0
+provider: null
+plugin: 'block_content:587e1b38-ab6c-48a0-bc51-8ef31f4dd2fe'
+settings:
+  id: 'block_content:587e1b38-ab6c-48a0-bc51-8ef31f4dd2fe'
+  label: 'Be the first to get our news and offers'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: "/node/62\r\n/node/64\r\n/node/65\r\n/node/67\r\n/node/68\r\n/node/69"
+    negate: false
+    context_mapping: {  }

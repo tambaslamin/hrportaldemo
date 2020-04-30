@@ -1,0 +1,31 @@
+uuid: 9d93ce92-4794-451c-87b0-36ec4261ffc1
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:mt_nodes_slideshow:abaf37f8-19d3-4eda-a148-f89f0fa57e6e'
+  module:
+    - block_content
+    - system
+  theme:
+    - flashyplus
+id: mt_nodesslideshow
+theme: flashyplus
+region: highlighted
+weight: 0
+provider: null
+plugin: 'block_content:abaf37f8-19d3-4eda-a148-f89f0fa57e6e'
+settings:
+  id: 'block_content:abaf37f8-19d3-4eda-a148-f89f0fa57e6e'
+  label: 'Nodes Slideshow'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: /blocks
+    negate: false
+    context_mapping: {  }

@@ -1,0 +1,31 @@
+uuid: 52750214-dc82-484a-9ed8-19ba4c9c1574
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:mt_features_slideshow:9d6dd5ab-d671-4de8-808f-ebc720974ccf'
+  module:
+    - block_content
+    - system
+  theme:
+    - flashyplus
+id: mt_featuresslideshow
+theme: flashyplus
+region: highlighted
+weight: 0
+provider: null
+plugin: 'block_content:9d6dd5ab-d671-4de8-808f-ebc720974ccf'
+settings:
+  id: 'block_content:9d6dd5ab-d671-4de8-808f-ebc720974ccf'
+  label: 'Features Slideshow'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: /blocks
+    negate: false
+    context_mapping: {  }

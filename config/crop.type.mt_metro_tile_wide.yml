@@ -1,0 +1,12 @@
+uuid: cdbf8ea3-5b7b-4e30-b554-d8e915c1cda3
+langcode: en
+status: true
+dependencies: {  }
+id: mt_metro_tile_wide
+label: 'Metro Tile Wide'
+description: ''
+aspect_ratio: '800:391'
+soft_limit_width: 800
+soft_limit_height: 391
+hard_limit_width: null
+hard_limit_height: null

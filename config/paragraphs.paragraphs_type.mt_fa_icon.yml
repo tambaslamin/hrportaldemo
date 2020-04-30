@@ -1,0 +1,10 @@
+uuid: cc96c2f4-0009-4646-bd2c-3b44dc35779c
+langcode: en
+status: true
+dependencies: {  }
+id: mt_fa_icon
+label: 'Fontawesome Icon'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

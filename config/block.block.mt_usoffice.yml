@@ -1,0 +1,31 @@
+uuid: 492480fa-a82d-47f0-a7a1-1fe0b846dfb7
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:404c39ec-0486-401d-8770-648c0ed2b3ef'
+  module:
+    - block_content
+    - system
+  theme:
+    - flashyplus
+id: mt_usoffice
+theme: flashyplus
+region: sidebar_second
+weight: -21
+provider: null
+plugin: 'block_content:404c39ec-0486-401d-8770-648c0ed2b3ef'
+settings:
+  id: 'block_content:404c39ec-0486-401d-8770-648c0ed2b3ef'
+  label: 'US Office'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: /contact
+    negate: false
+    context_mapping: {  }

@@ -1,0 +1,25 @@
+uuid: 1abc178e-c8c0-42ab-9021-3b66acc3b00b
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:mt_typing_animation:f64d81f2-92a1-4ffc-b301-12660958691e'
+  module:
+    - block_content
+  theme:
+    - flashyplus
+id: mt_typinganimation
+theme: flashyplus
+region: hidden_blocks_collection
+weight: 0
+provider: null
+plugin: 'block_content:f64d81f2-92a1-4ffc-b301-12660958691e'
+settings:
+  id: 'block_content:f64d81f2-92a1-4ffc-b301-12660958691e'
+  label: 'Typing animation'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

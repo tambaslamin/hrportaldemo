@@ -1,0 +1,19 @@
+uuid: de1ceb02-cb6e-45a0-91ef-8ab5028460bc
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_mt_prd_specification_label
+    - paragraphs.paragraphs_type.mt_prd_specification
+id: paragraph.mt_prd_specification.field_mt_prd_specification_label
+field_name: field_mt_prd_specification_label
+entity_type: paragraph
+bundle: mt_prd_specification
+label: Label
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,62 @@
+uuid: caefcad5-e3c4-45ac-92e2-61e2cea87762
+langcode: en
+status: null
+dependencies: {  }
+id: mt_mailchimp_signup
+title: 'Mailchimp Signup'
+mc_lists:
+  efd219bb85: efd219bb85
+  b332a9fe13: '0'
+  300c5ff5fc: '0'
+  19018cf4ac: '0'
+  6b7a6f3000: '0'
+  f6e5adbdca: '0'
+  9c3716bf90: '0'
+  ac20b161c7: '0'
+  b63d54c156: '0'
+  82c7ec1bfa: '0'
+  e95aa9ad02: '0'
+  d98233efb8: '0'
+  dafda99a2c: '0'
+  f43c592735: '0'
+  4a8a7bee10: '0'
+  6ab40f7e8f: '0'
+  b48a32e4d7: '0'
+  bae5455b62: '0'
+  e448e047c7: '0'
+  c84f286a9e: '0'
+  c250fcea0a: '0'
+  c7b281b4a2: '0'
+  425ac0ef8c: '0'
+  396350f3e5: '0'
+  53913cc3fc: '0'
+  1e6b93a495: '0'
+  2eedea328c: '0'
+  90f4b315cd: '0'
+  d2357384f7: '0'
+mode: 3
+mergefields:
+  EMAIL: true
+  FNAME: false
+  LNAME: false
+description: ''
+doublein: false
+send_welcome: null
+include_interest_groups: false
+settings:
+  path: signup
+  submit_button: 'Sign Up'
+  confirmation_message: 'You have been successfully subscribed.'
+  destination: ''
+  mergefields:
+    EMAIL: "O:8:\"stdClass\":8:{s:3:\"tag\";s:5:\"EMAIL\";s:4:\"name\";O:48:\"Drupal\\Core\\StringTranslation\\TranslatableMarkup\":3:{s:9:\"\0*\0string\";s:13:\"Email Address\";s:12:\"\0*\0arguments\";a:0:{}s:10:\"\0*\0options\";a:0:{}}s:4:\"type\";s:5:\"email\";s:8:\"required\";b:1;s:13:\"default_value\";s:0:\"\";s:6:\"public\";b:1;s:13:\"display_order\";i:1;s:7:\"options\";O:8:\"stdClass\":1:{s:4:\"size\";i:25;}}"
+    FNAME: '0'
+    LNAME: '0'
+  description: ''
+  doublein: false
+  include_interest_groups: false
+  safe_interest_groups: false
+  configure_groups: false
+  gdpr_consent: false
+  gdpr_checkbox_label: ''
+  gdpr_consent_required: false

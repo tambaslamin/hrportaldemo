@@ -1,0 +1,10 @@
+uuid: edf4f837-937a-44b6-b407-cdd71321fbf6
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.mt_teaser_tile_image
+label: 'Teaser Tile Image'
+targetEntityType: node
+cache: true

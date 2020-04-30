@@ -1,0 +1,10 @@
+uuid: b01ae9db-dc0e-4fef-979a-e1f6aff9b168
+langcode: en
+status: true
+dependencies:
+  module:
+    - media
+id: media.mt_media_object_medium
+label: 'Media Object Medium'
+targetEntityType: media
+cache: true

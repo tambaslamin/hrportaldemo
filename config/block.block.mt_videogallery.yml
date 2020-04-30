@@ -1,0 +1,31 @@
+uuid: 7e094637-a0ce-457e-944a-443111ac0df4
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:mt_video_gallery:041cff18-7fbc-4a88-8be2-f3ebfb90e1c9'
+  module:
+    - block_content
+    - system
+  theme:
+    - flashyplus
+id: mt_videogallery
+theme: flashyplus
+region: highlighted
+weight: 0
+provider: null
+plugin: 'block_content:041cff18-7fbc-4a88-8be2-f3ebfb90e1c9'
+settings:
+  id: 'block_content:041cff18-7fbc-4a88-8be2-f3ebfb90e1c9'
+  label: 'Video Gallery'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: /blocks
+    negate: false
+    context_mapping: {  }

@@ -1,0 +1,10 @@
+uuid: 099da3f3-f9f2-4fd8-ae19-990327438420
+langcode: en
+status: true
+dependencies: {  }
+id: mt_image_link
+label: 'Image and Link'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

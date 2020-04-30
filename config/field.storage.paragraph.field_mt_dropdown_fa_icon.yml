@@ -1,0 +1,19 @@
+uuid: 0e6655b6-9286-48e1-90bc-73e2ca86ebf0
+langcode: en
+status: true
+dependencies:
+  module:
+    - fontawesome
+    - paragraphs
+id: paragraph.field_mt_dropdown_fa_icon
+field_name: field_mt_dropdown_fa_icon
+entity_type: paragraph
+type: fontawesome_icon
+settings: {  }
+module: fontawesome
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

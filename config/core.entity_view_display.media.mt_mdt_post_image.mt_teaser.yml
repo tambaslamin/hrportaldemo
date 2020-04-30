@@ -1,0 +1,30 @@
+uuid: 2e1be274-db41-484d-bfb0-2649608db6da
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.media.mt_teaser
+    - field.field.media.mt_mdt_post_image.field_media_image_2
+    - image.style.mt_large
+    - media.type.mt_mdt_post_image
+  module:
+    - image
+id: media.mt_mdt_post_image.mt_teaser
+targetEntityType: media
+bundle: mt_mdt_post_image
+mode: mt_teaser
+content:
+  field_media_image_2:
+    weight: 0
+    label: hidden
+    settings:
+      image_style: mt_large
+      image_link: content
+    third_party_settings: {  }
+    type: image
+    region: content
+hidden:
+  created: true
+  name: true
+  thumbnail: true
+  uid: true

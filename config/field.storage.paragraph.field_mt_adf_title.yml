@@ -1,0 +1,21 @@
+uuid: 9f5bbb02-9fd6-40cf-86c8-f0890d40ab3f
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs
+id: paragraph.field_mt_adf_title
+field_name: field_mt_adf_title
+entity_type: paragraph
+type: string
+settings:
+  max_length: 255
+  is_ascii: false
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

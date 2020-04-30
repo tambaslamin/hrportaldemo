@@ -1,0 +1,23 @@
+uuid: 4abc796e-97c7-4844-9235-57a2e3b1f894
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_mt_tmm_featured
+    - node.type.mt_team_member
+id: node.mt_team_member.field_mt_tmm_featured
+field_name: field_mt_tmm_featured
+entity_type: node
+bundle: mt_team_member
+label: Featured
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

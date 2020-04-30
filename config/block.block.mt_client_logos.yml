@@ -1,0 +1,31 @@
+uuid: 8c29409c-1d64-44a9-b206-205d42c69269
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:mt_logo_links:15fda1cb-b838-4811-8b77-7b22584e89c2'
+  module:
+    - block_content
+    - system
+  theme:
+    - flashyplus
+id: mt_client_logos
+theme: flashyplus
+region: content_top
+weight: 0
+provider: null
+plugin: 'block_content:15fda1cb-b838-4811-8b77-7b22584e89c2'
+settings:
+  id: 'block_content:15fda1cb-b838-4811-8b77-7b22584e89c2'
+  label: 'Client Logos'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: "/node/62\r\n/node/64\r\n/node/65\r\n/node/67\r\n/node/68\r\n/node/69"
+    negate: false
+    context_mapping: {  }

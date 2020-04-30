@@ -1,0 +1,23 @@
+uuid: beb8986d-ce13-456a-b8f5-01c90259b3a6
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.mt_typing_animation
+    - field.storage.block_content.field_mt_ta_body
+  module:
+    - text
+id: block_content.mt_typing_animation.field_mt_ta_body
+field_name: field_mt_ta_body
+entity_type: block_content
+bundle: mt_typing_animation
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+  required_summary: false
+field_type: text_with_summary

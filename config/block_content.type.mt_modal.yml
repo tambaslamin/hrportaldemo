@@ -1,0 +1,8 @@
+uuid: 179dd077-c4bb-496c-95a0-fa0b25eddbc3
+langcode: en
+status: true
+dependencies: {  }
+id: mt_modal
+label: Modal
+revision: 0
+description: 'Use this custom block type to display other blocks as modal elements, using the corresponding Bootstrap feature.'

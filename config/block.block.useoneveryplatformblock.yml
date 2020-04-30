@@ -1,0 +1,31 @@
+uuid: 1514e830-cca1-43c1-87e3-44d36266f1b8
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:mt_hero_v2:01f3d1a3-ed30-4cae-968b-b5dba429c6b3'
+  module:
+    - block_content
+    - system
+  theme:
+    - flashyplus
+id: useoneveryplatformblock
+theme: flashyplus
+region: content_top_highlighted
+weight: 0
+provider: null
+plugin: 'block_content:01f3d1a3-ed30-4cae-968b-b5dba429c6b3'
+settings:
+  id: 'block_content:01f3d1a3-ed30-4cae-968b-b5dba429c6b3'
+  label: 'Use on every platform'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: "/node/62\r\n/node/64\r\n/node/65\r\n/node/67\r\n/node/69"
+    negate: false
+    context_mapping: {  }

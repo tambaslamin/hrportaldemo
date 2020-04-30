@@ -1,0 +1,8 @@
+uuid: 9ad52576-58b5-488d-b90f-9714b34355ff
+langcode: en
+status: true
+dependencies: {  }
+id: mt_icon_features
+label: 'Icon Features'
+revision: 0
+description: 'Use this custom block type to create blocks that display icon features.'

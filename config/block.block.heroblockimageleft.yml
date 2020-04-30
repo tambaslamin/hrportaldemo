@@ -1,0 +1,31 @@
+uuid: e9ae1297-4914-4a82-a9bc-85d7c0077b09
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:mt_hero_v2:d1a25336-e950-4ea9-b755-5577e7bd6ab8'
+  module:
+    - block_content
+    - system
+  theme:
+    - flashyplus
+id: heroblockimageleft
+theme: flashyplus
+region: banner
+weight: 0
+provider: null
+plugin: 'block_content:d1a25336-e950-4ea9-b755-5577e7bd6ab8'
+settings:
+  id: 'block_content:d1a25336-e950-4ea9-b755-5577e7bd6ab8'
+  label: 'Hero Block - Image Left'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: /node/67
+    negate: false
+    context_mapping: {  }

@@ -1,0 +1,31 @@
+uuid: 12a530ed-9f4b-4f7f-a733-bf8f022e0cdd
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:mt_collapsible:33b75bef-7bed-4166-9d65-0c9f5816793f'
+  module:
+    - block_content
+    - system
+  theme:
+    - flashyplus
+id: mt_collapsibleblock
+theme: flashyplus
+region: highlighted
+weight: -29
+provider: null
+plugin: 'block_content:33b75bef-7bed-4166-9d65-0c9f5816793f'
+settings:
+  id: 'block_content:33b75bef-7bed-4166-9d65-0c9f5816793f'
+  label: 'Collapsible block'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: /blocks
+    negate: false
+    context_mapping: {  }

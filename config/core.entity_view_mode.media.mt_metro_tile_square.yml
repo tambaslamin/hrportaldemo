@@ -1,0 +1,10 @@
+uuid: dee08919-7ae5-49fc-b78a-1a8bf5bd788b
+langcode: en
+status: true
+dependencies:
+  module:
+    - media
+id: media.mt_metro_tile_square
+label: 'Metro Tile Square'
+targetEntityType: media
+cache: true

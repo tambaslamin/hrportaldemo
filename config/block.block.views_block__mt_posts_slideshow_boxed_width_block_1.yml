@@ -1,0 +1,30 @@
+uuid: 7a13e1b6-a96f-4c81-89ca-f7fe006e9738
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.mt_posts_slideshow_boxed_width
+  module:
+    - system
+    - views
+  theme:
+    - flashyplus
+id: views_block__mt_posts_slideshow_boxed_width_block_1
+theme: flashyplus
+region: hero_first
+weight: 0
+provider: null
+plugin: 'views_block:mt_posts_slideshow_boxed_width-block_1'
+settings:
+  id: 'views_block:mt_posts_slideshow_boxed_width-block_1'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: /node/64
+    negate: false
+    context_mapping: {  }

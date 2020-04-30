@@ -1,0 +1,31 @@
+uuid: c1c2788b-31dc-4dcc-ba2c-448168dff4bf
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:mt_hero_v2:0fb60399-fef6-482d-b780-b009624e7838'
+  module:
+    - block_content
+    - system
+  theme:
+    - flashyplus
+id: heroblock
+theme: flashyplus
+region: banner
+weight: 0
+provider: null
+plugin: 'block_content:0fb60399-fef6-482d-b780-b009624e7838'
+settings:
+  id: 'block_content:0fb60399-fef6-482d-b780-b009624e7838'
+  label: 'Hero Block'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: /node/62
+    negate: false
+    context_mapping: {  }

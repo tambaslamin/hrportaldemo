@@ -1,0 +1,8 @@
+uuid: 3dbb4684-acc1-4c82-ae51-3c8b3c3f909b
+langcode: en
+status: true
+dependencies: {  }
+id: mt_hero
+label: Hero
+revision: 0
+description: ''

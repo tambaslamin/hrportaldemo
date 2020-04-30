@@ -1,0 +1,23 @@
+uuid: df55396a-2021-437a-9bac-59b46c04a8ef
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_mt_prd_body
+    - node.type.mt_product
+  module:
+    - text
+id: node.mt_product.field_mt_prd_body
+field_name: field_mt_prd_body
+entity_type: node
+bundle: mt_product
+label: Body
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

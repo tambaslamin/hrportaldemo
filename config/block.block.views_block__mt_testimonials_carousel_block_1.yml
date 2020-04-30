@@ -1,0 +1,30 @@
+uuid: b12608e2-70b4-4a09-8c3b-5c5f7df23abf
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.mt_testimonials_carousel
+  module:
+    - system
+    - views
+  theme:
+    - flashyplus
+id: views_block__mt_testimonials_carousel_block_1
+theme: flashyplus
+region: sub_featured
+weight: -15
+provider: null
+plugin: 'views_block:mt_testimonials_carousel-block_1'
+settings:
+  id: 'views_block:mt_testimonials_carousel-block_1'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: /node/63
+    negate: false
+    context_mapping: {  }

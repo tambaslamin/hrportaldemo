@@ -1,0 +1,31 @@
+uuid: 31a5ee94-199e-48ac-8234-3a2a00909757
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:mt_hero_v2:0fb60399-fef6-482d-b780-b009624e7838'
+  module:
+    - block_content
+    - system
+  theme:
+    - flashyplus
+id: heroblockimageright
+theme: flashyplus
+region: content_top_highlighted
+weight: 0
+provider: null
+plugin: 'block_content:0fb60399-fef6-482d-b780-b009624e7838'
+settings:
+  id: 'block_content:0fb60399-fef6-482d-b780-b009624e7838'
+  label: 'Hero Block - Image Right'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: /node/68
+    negate: false
+    context_mapping: {  }

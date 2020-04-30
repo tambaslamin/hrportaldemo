@@ -1,0 +1,10 @@
+uuid: bcba8c19-a4df-428c-b046-921b356a25f3
+langcode: en
+status: true
+dependencies: {  }
+id: mt_detailed_feature
+label: 'Detailed Feature'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

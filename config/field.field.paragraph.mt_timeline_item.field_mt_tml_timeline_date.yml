@@ -1,0 +1,21 @@
+uuid: 784665b6-de91-4af1-8a16-e45f8e7073de
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_mt_tml_timeline_date
+    - paragraphs.paragraphs_type.mt_timeline_item
+  module:
+    - datetime
+id: paragraph.mt_timeline_item.field_mt_tml_timeline_date
+field_name: field_mt_tml_timeline_date
+entity_type: paragraph
+bundle: mt_timeline_item
+label: Date
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

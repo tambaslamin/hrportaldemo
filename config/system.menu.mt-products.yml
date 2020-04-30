@@ -1,0 +1,8 @@
+uuid: c380371c-5b44-4038-933c-0de7a6cf4add
+langcode: en
+status: true
+dependencies: {  }
+id: mt-products
+label: Products
+description: ''
+locked: false

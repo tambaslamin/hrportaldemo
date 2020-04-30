@@ -1,0 +1,8 @@
+uuid: fb233d87-e522-447e-9c47-7df644642f57
+langcode: en
+status: true
+dependencies: {  }
+id: mt_frontpage_cover
+label: 'Front page cover'
+revision: 0
+description: ''

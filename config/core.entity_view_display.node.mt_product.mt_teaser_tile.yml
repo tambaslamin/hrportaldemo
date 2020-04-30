@@ -1,0 +1,88 @@
+uuid: 4e6379d4-cbbd-4fd9-b25e-bbc5dbe926a0
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.mt_teaser_tile
+    - field.field.node.mt_product.field_mt_prd_additional_features
+    - field.field.node.mt_product.field_mt_prd_availability
+    - field.field.node.mt_product.field_mt_prd_banner_carousel
+    - field.field.node.mt_product.field_mt_prd_body
+    - field.field.node.mt_product.field_mt_prd_buy_link
+    - field.field.node.mt_product.field_mt_prd_categories
+    - field.field.node.mt_product.field_mt_prd_comments
+    - field.field.node.mt_product.field_mt_prd_content_collapses
+    - field.field.node.mt_product.field_mt_prd_content_tabs
+    - field.field.node.mt_product.field_mt_prd_delivery_options
+    - field.field.node.mt_product.field_mt_prd_featured_product
+    - field.field.node.mt_product.field_mt_prd_highlight
+    - field.field.node.mt_product.field_mt_prd_image
+    - field.field.node.mt_product.field_mt_prd_landscape_image
+    - field.field.node.mt_product.field_mt_prd_most_popular
+    - field.field.node.mt_product.field_mt_prd_price
+    - field.field.node.mt_product.field_mt_prd_pricing_table_item
+    - field.field.node.mt_product.field_mt_prd_product_code
+    - field.field.node.mt_product.field_mt_prd_specifications
+    - field.field.node.mt_product.field_mt_prd_subheader_body
+    - field.field.node.mt_product.field_mt_prd_subtitle
+    - field.field.node.mt_product.field_mt_prd_tags
+    - field.field.node.mt_product.field_mt_prd_teaser_image
+    - field.field.node.mt_product.field_mt_prd_video
+    - image.style.mt_large
+    - node.type.mt_product
+  module:
+    - image
+    - user
+id: node.mt_product.mt_teaser_tile
+targetEntityType: node
+bundle: mt_product
+mode: mt_teaser_tile
+content:
+  field_mt_prd_price:
+    type: string
+    weight: 2
+    region: content
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+  field_mt_prd_tags:
+    type: entity_reference_label
+    weight: 0
+    region: content
+    label: hidden
+    settings:
+      link: true
+    third_party_settings: {  }
+  field_mt_prd_teaser_image:
+    type: image
+    weight: 1
+    region: content
+    label: hidden
+    settings:
+      image_style: mt_large
+      image_link: content
+    third_party_settings: {  }
+hidden:
+  field_mt_prd_additional_features: true
+  field_mt_prd_availability: true
+  field_mt_prd_banner_carousel: true
+  field_mt_prd_body: true
+  field_mt_prd_buy_link: true
+  field_mt_prd_categories: true
+  field_mt_prd_comments: true
+  field_mt_prd_content_collapses: true
+  field_mt_prd_content_tabs: true
+  field_mt_prd_delivery_options: true
+  field_mt_prd_featured_product: true
+  field_mt_prd_highlight: true
+  field_mt_prd_image: true
+  field_mt_prd_landscape_image: true
+  field_mt_prd_most_popular: true
+  field_mt_prd_pricing_table_item: true
+  field_mt_prd_product_code: true
+  field_mt_prd_specifications: true
+  field_mt_prd_subheader_body: true
+  field_mt_prd_subtitle: true
+  field_mt_prd_video: true
+  links: true

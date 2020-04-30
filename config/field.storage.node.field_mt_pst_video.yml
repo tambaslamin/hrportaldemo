@@ -1,0 +1,19 @@
+uuid: b9e41b97-1768-4d69-8707-6ed2eda8f4ce
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - video_embed_field
+id: node.field_mt_pst_video
+field_name: field_mt_pst_video
+entity_type: node
+type: video_embed_field
+settings: {  }
+module: video_embed_field
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

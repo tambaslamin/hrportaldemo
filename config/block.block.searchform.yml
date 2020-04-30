@@ -1,0 +1,21 @@
+uuid: 49bc61c7-f146-48c4-8335-9566031b3a9a
+langcode: en
+status: true
+dependencies:
+  module:
+    - search
+  theme:
+    - flashyplus
+id: searchform
+theme: flashyplus
+region: hidden_blocks_collection
+weight: -23
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: 'Search form'
+  provider: search
+  label_display: '0'
+  page_id: ''
+visibility: {  }

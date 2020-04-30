@@ -1,0 +1,26 @@
+uuid: 857f85c8-7f47-45fa-9c6f-9b625bbdf47a
+langcode: en
+status: true
+dependencies:
+  module:
+    - mailchimp_signup
+    - system
+  theme:
+    - flashyplus
+id: mailchimpsubscriptionformmailchimpsignup
+theme: flashyplus
+region: featured
+weight: 0
+provider: null
+plugin: 'mailchimp_signup_subscribe_block:mt_mailchimp_signup'
+settings:
+  id: 'mailchimp_signup_subscribe_block:mt_mailchimp_signup'
+  label: 'Mailchimp Subscription Form: Mailchimp Signup'
+  provider: mailchimp_signup
+  label_display: '0'
+visibility:
+  request_path:
+    id: request_path
+    pages: "/node/62\r\n/node/64\r\n/node/65\r\n/node/67\r\n/node/68\r\n/node/69"
+    negate: false
+    context_mapping: {  }

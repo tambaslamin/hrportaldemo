@@ -1,0 +1,31 @@
+uuid: 931cac71-724b-4a56-b6a2-031e79865125
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:mt_media_tabs:d1a6ff40-4b99-44ce-962b-652bb7c3a461'
+  module:
+    - block_content
+    - system
+  theme:
+    - flashyplus
+id: mt_mediatabs
+theme: flashyplus
+region: highlighted
+weight: -24
+provider: null
+plugin: 'block_content:d1a6ff40-4b99-44ce-962b-652bb7c3a461'
+settings:
+  id: 'block_content:d1a6ff40-4b99-44ce-962b-652bb7c3a461'
+  label: 'Media tabs'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: /blocks
+    negate: false
+    context_mapping: {  }

@@ -1,0 +1,24 @@
+uuid: 8e08eb21-b507-4932-ba8b-1104e91d650a
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.mt_features_slideshow
+    - field.field.block_content.mt_features_slideshow.field_mt_feature
+  module:
+    - entity_reference_revisions
+id: block_content.mt_features_slideshow.default
+targetEntityType: block_content
+bundle: mt_features_slideshow
+mode: default
+content:
+  field_mt_feature:
+    type: entity_reference_revisions_entity_view
+    weight: 1
+    label: hidden
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    region: content
+hidden: {  }
