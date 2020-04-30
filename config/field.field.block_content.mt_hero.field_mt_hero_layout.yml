@@ -1,0 +1,23 @@
+uuid: e21c423a-f1b3-4442-8b33-44c71a33bfb2
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.mt_hero
+    - field.storage.block_content.field_mt_hero_layout
+  module:
+    - options
+id: block_content.mt_hero.field_mt_hero_layout
+field_name: field_mt_hero_layout
+entity_type: block_content
+bundle: mt_hero
+label: Layout
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    value: stacked
+default_value_callback: ''
+settings: {  }
+field_type: list_string

@@ -1,0 +1,19 @@
+uuid: 41dee945-c8eb-4b0b-b8c4-8b481c039456
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_mt_tmm_subtitle
+    - node.type.mt_team_member
+id: node.mt_team_member.field_mt_tmm_subtitle
+field_name: field_mt_tmm_subtitle
+entity_type: node
+bundle: mt_team_member
+label: Subtitle
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

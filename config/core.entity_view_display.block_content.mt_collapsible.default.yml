@@ -1,0 +1,32 @@
+uuid: b2f81110-e6fa-416c-a07f-5f03b51d7b18
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.mt_collapsible
+    - field.field.block_content.mt_collapsible.field_mt_cb_block_reference
+    - field.field.block_content.mt_collapsible.field_mt_cb_collapse_icon
+    - field.field.block_content.mt_collapsible.field_mt_cb_expand_icon
+    - field.field.block_content.mt_collapsible.field_mt_cb_state
+    - field.field.block_content.mt_collapsible.field_mt_cb_title
+    - field.field.block_content.mt_collapsible.field_mt_cb_trigger_position
+id: block_content.mt_collapsible.default
+targetEntityType: block_content
+bundle: mt_collapsible
+mode: default
+content:
+  field_mt_cb_block_reference:
+    weight: 0
+    label: hidden
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    type: entity_reference_entity_view
+    region: content
+hidden:
+  field_mt_cb_collapse_icon: true
+  field_mt_cb_expand_icon: true
+  field_mt_cb_state: true
+  field_mt_cb_title: true
+  field_mt_cb_trigger_position: true

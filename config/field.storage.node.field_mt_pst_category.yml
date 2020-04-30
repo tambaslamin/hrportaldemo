@@ -1,0 +1,20 @@
+uuid: 8c7d15fc-06c4-4b5d-a095-2d485c7e3536
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - taxonomy
+id: node.field_mt_pst_category
+field_name: field_mt_pst_category
+entity_type: node
+type: entity_reference
+settings:
+  target_type: taxonomy_term
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

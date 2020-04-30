@@ -1,0 +1,23 @@
+uuid: dc59cc96-5320-4880-a9b5-0a65ae811d53
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_mt_srv_body
+    - node.type.mt_service
+  module:
+    - text
+id: node.mt_service.field_mt_srv_body
+field_name: field_mt_srv_body
+entity_type: node
+bundle: mt_service
+label: Body
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

@@ -1,0 +1,12 @@
+uuid: f69efc75-4eb1-48b0-88d5-1b15286d838c
+langcode: en
+status: true
+dependencies: {  }
+id: mt_boxedwidth_slide_image
+label: 'Boxedwidth Slide Image'
+description: ''
+aspect_ratio: '1140:650'
+soft_limit_width: 1140
+soft_limit_height: 650
+hard_limit_width: null
+hard_limit_height: null

@@ -1,0 +1,10 @@
+uuid: 7eb4d77e-7014-48fc-9d5d-26a89ea69378
+langcode: en
+status: true
+dependencies: {  }
+id: mt_prd_specification
+label: 'Product Specification'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

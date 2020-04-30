@@ -1,0 +1,22 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - search
+  theme:
+    - flashyplus
+_core:
+  default_config_hash: pKcdr1HmQur6Y8OjhldDLmLSaX-LKxOyTXXGHjOLUCU
+id: flashyplus_search
+theme: flashyplus
+region: sidebar_first
+weight: -6
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: Search
+  provider: search
+  label_display: visible
+  page_id: ''
+visibility: {  }

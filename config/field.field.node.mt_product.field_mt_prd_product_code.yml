@@ -1,0 +1,19 @@
+uuid: c8074511-f602-4d31-b050-828e600b7d1a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_mt_prd_product_code
+    - node.type.mt_product
+id: node.mt_product.field_mt_prd_product_code
+field_name: field_mt_prd_product_code
+entity_type: node
+bundle: mt_product
+label: SKU
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,10 @@
+uuid: eb2c9846-7887-4dca-828f-7ca3be3c3f59
+langcode: en
+status: true
+dependencies: {  }
+id: mt_tab
+label: Tab
+icon_uuid: null
+icon_default: null
+description: null
+behavior_plugins: {  }

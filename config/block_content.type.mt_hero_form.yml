@@ -1,0 +1,8 @@
+uuid: 07713598-a002-4396-8747-355eb2fd3003
+langcode: en
+status: true
+dependencies: {  }
+id: mt_hero_form
+label: 'Hero form'
+revision: 0
+description: ''

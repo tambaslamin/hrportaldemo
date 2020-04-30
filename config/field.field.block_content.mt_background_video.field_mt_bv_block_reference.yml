@@ -1,0 +1,23 @@
+uuid: 6f3c30bb-1e74-4faa-b76d-c64e30fa74ff
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.mt_background_video
+    - field.storage.block_content.field_mt_bv_block_reference
+id: block_content.mt_background_video.field_mt_bv_block_reference
+field_name: field_mt_bv_block_reference
+entity_type: block_content
+bundle: mt_background_video
+label: 'Block Reference'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:block'
+  handler_settings:
+    target_bundles: null
+    auto_create: false
+field_type: entity_reference

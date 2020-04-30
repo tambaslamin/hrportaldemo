@@ -1,0 +1,8 @@
+uuid: f2dcd8c7-584a-40b6-b5a5-7000ed0b705b
+langcode: en
+status: true
+dependencies: {  }
+id: mt_fancy_linked_images
+label: 'Fancy Linked Images'
+revision: 0
+description: 'Use this custom block type to create blocks that display linked images.'

@@ -1,0 +1,19 @@
+uuid: bcc84722-8d6d-4d06-91b9-33e39e47ed5a
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - text
+id: node.field_mt_tmm_body
+field_name: field_mt_tmm_body
+entity_type: node
+type: text_with_summary
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

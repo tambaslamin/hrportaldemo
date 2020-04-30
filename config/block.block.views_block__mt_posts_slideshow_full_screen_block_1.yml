@@ -1,0 +1,30 @@
+uuid: 6af804f4-b2c6-49cc-8c95-3011cf668296
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.mt_posts_slideshow_full_screen
+  module:
+    - system
+    - views
+  theme:
+    - flashyplus
+id: views_block__mt_posts_slideshow_full_screen_block_1
+theme: flashyplus
+region: banner
+weight: 0
+provider: null
+plugin: 'views_block:mt_posts_slideshow_full_screen-block_1'
+settings:
+  id: 'views_block:mt_posts_slideshow_full_screen-block_1'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: /node/63
+    negate: false
+    context_mapping: {  }

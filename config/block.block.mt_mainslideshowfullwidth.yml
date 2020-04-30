@@ -1,0 +1,31 @@
+uuid: eb0ff1ab-ab41-4d8a-a914-c5327ac274fc
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:mt_main_slideshow:46b4e3f5-8afa-4ea2-990d-63b1c0a4af38'
+  module:
+    - block_content
+    - system
+  theme:
+    - flashyplus
+id: mt_mainslideshowfullwidth
+theme: flashyplus
+region: highlighted
+weight: 0
+provider: null
+plugin: 'block_content:46b4e3f5-8afa-4ea2-990d-63b1c0a4af38'
+settings:
+  id: 'block_content:46b4e3f5-8afa-4ea2-990d-63b1c0a4af38'
+  label: 'Main Slideshow - Fullwidth'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: /blocks
+    negate: false
+    context_mapping: {  }

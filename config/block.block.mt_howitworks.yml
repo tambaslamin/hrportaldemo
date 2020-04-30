@@ -1,0 +1,31 @@
+uuid: fb4bc040-b71a-4690-8aac-101761f2ca8a
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:mt_how_it_works:b64e259b-ecf7-432f-ad6b-ecd265ec9d77'
+  module:
+    - block_content
+    - system
+  theme:
+    - flashyplus
+id: mt_howitworks
+theme: flashyplus
+region: highlighted
+weight: -27
+provider: null
+plugin: 'block_content:b64e259b-ecf7-432f-ad6b-ecd265ec9d77'
+settings:
+  id: 'block_content:b64e259b-ecf7-432f-ad6b-ecd265ec9d77'
+  label: 'How it works'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: /blocks
+    negate: false
+    context_mapping: {  }

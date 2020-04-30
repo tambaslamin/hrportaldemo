@@ -1,0 +1,14 @@
+/**
+ * @file
+ * Purple color styling for Flashy+ for Drupal 8.
+ */
+:root {
+  --mt-foreground-color: 225, 6%, 13%;
+  --mt-foreground-color-contrast: 0, 0%, 100%;
+  --mt-base-color-lightness: 85%;
+  --mt-dark-color-lightness: 75%;
+  --mt-base-color: 268, 25%, var(--mt-base-color-lightness);
+  --mt-dark-color: 268, 25%, var(--mt-dark-color-lightness);
+  --mt-link-color: 328, 80%, 40%;
+  --mt-link-color-hover: 328, 80%, 30%;
+}

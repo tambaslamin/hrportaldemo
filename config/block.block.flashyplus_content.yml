@@ -1,0 +1,22 @@
+uuid: cf7dd5f9-940a-49aa-a699-472942b2d450
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - flashyplus
+_core:
+  default_config_hash: 8TxYE87v3djAGsnvZEVEnCtpKqFNHuUg9l3q-dSIROE
+id: flashyplus_content
+theme: flashyplus
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }

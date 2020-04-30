@@ -1,0 +1,25 @@
+uuid: 8b307350-895b-4bc9-a8b7-e73d2cb45afe
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.mt-company
+  module:
+    - system
+  theme:
+    - flashyplus
+id: company
+theme: flashyplus
+region: footer_fifth
+weight: 0
+provider: null
+plugin: 'system_menu_block:mt-company'
+settings:
+  id: 'system_menu_block:mt-company'
+  label: Company
+  provider: system
+  label_display: visible
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

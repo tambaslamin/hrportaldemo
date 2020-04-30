@@ -1,0 +1,30 @@
+uuid: efe90d35-ea8e-493b-ad4b-434021c5fe80
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.mt_testimonials_tiles
+  module:
+    - system
+    - views
+  theme:
+    - flashyplus
+id: views_block__mt_testimonials_tiles_block_1
+theme: flashyplus
+region: featured_bottom
+weight: 0
+provider: null
+plugin: 'views_block:mt_testimonials_tiles-block_1'
+settings:
+  id: 'views_block:mt_testimonials_tiles-block_1'
+  label: 'What our customers are saying'
+  provider: views
+  label_display: visible
+  views_label: 'What our customers are saying'
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: "/node/62\r\n/node/64\r\n/node/65\r\n/node/67\r\n/node/68\r\n/node/69"
+    negate: false
+    context_mapping: {  }

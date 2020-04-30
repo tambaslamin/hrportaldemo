@@ -1,0 +1,10 @@
+uuid: 252f37a9-f370-4bc2-a1cb-1ae3c8e73d8f
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.mt_media_object
+label: 'Media Object'
+targetEntityType: node
+cache: true

@@ -1,0 +1,27 @@
+uuid: f1cea0dd-59e4-44e0-8ba5-207459cb3152
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_content
+    - options
+id: block_content.field_mt_cb_state
+field_name: field_mt_cb_state
+entity_type: block_content
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: expanded
+      label: Expanded
+    -
+      value: collapsed
+      label: Collapsed
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

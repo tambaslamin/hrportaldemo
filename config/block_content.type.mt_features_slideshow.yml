@@ -1,0 +1,8 @@
+uuid: f979e0cb-61b0-43a1-9799-9a5a4e7ad140
+langcode: en
+status: true
+dependencies: {  }
+id: mt_features_slideshow
+label: 'Features Slideshow'
+revision: 0
+description: 'Use this custom block type to display features in a slideshow.'

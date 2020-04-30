@@ -1,0 +1,31 @@
+uuid: e5925594-7526-48d4-816c-3c1996c937b0
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:mt_google_maps:bae82c77-022b-43de-b53d-b7e76b2f81b0'
+  module:
+    - block_content
+    - system
+  theme:
+    - flashyplus
+id: mt_ourofficelocations_demo
+theme: flashyplus
+region: highlighted
+weight: -26
+provider: null
+plugin: 'block_content:bae82c77-022b-43de-b53d-b7e76b2f81b0'
+settings:
+  id: 'block_content:bae82c77-022b-43de-b53d-b7e76b2f81b0'
+  label: 'Google Map'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: /blocks
+    negate: false
+    context_mapping: {  }

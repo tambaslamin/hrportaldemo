@@ -1,0 +1,31 @@
+uuid: 8fc2d511-b8c1-4857-a391-9f6dc538d635
+langcode: en
+status: false
+dependencies:
+  content:
+    - 'block_content:basic:945c8bfa-3c5d-45ad-a4bd-d0f3ec791300'
+  module:
+    - block_content
+    - system
+  theme:
+    - flashyplus
+id: subscribeform
+theme: flashyplus
+region: featured
+weight: 0
+provider: null
+plugin: 'block_content:945c8bfa-3c5d-45ad-a4bd-d0f3ec791300'
+settings:
+  id: 'block_content:945c8bfa-3c5d-45ad-a4bd-d0f3ec791300'
+  label: 'Subscribe form'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: "/node/62\r\n/node/64\r\n/node/65\r\n/node/67\r\n/node/68\r\n/node/69"
+    negate: false
+    context_mapping: {  }

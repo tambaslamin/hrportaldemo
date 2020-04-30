@@ -1,0 +1,20 @@
+uuid: f00a11d5-fd9e-4f5e-83f3-53ec7a7a91a2
+langcode: en
+status: true
+dependencies:
+  theme:
+    - flashyplus
+_core:
+  default_config_hash: s17kwFRqWRHGcA2y3rMExVbIFX2MwdH_QeDHnH2x2-w
+id: flashyplus_local_actions
+theme: flashyplus
+region: content
+weight: -7
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }

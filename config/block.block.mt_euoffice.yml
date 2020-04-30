@@ -1,0 +1,31 @@
+uuid: 5c00b9c2-5890-4b67-900b-0d61af936e60
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:7c95a792-6766-441e-8061-0a8b300f46a2'
+  module:
+    - block_content
+    - system
+  theme:
+    - flashyplus
+id: mt_euoffice
+theme: flashyplus
+region: sidebar_second
+weight: -20
+provider: null
+plugin: 'block_content:7c95a792-6766-441e-8061-0a8b300f46a2'
+settings:
+  id: 'block_content:7c95a792-6766-441e-8061-0a8b300f46a2'
+  label: 'EU Office'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: /contact
+    negate: false
+    context_mapping: {  }

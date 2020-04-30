@@ -1,0 +1,19 @@
+uuid: a1911e5f-31f2-4b2e-8cda-5c1a810e45ee
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.mt_collapsible
+    - field.storage.block_content.field_mt_cb_title
+id: block_content.mt_collapsible.field_mt_cb_title
+field_name: field_mt_cb_title
+entity_type: block_content
+bundle: mt_collapsible
+label: 'Collapse title'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

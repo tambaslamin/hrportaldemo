@@ -1,0 +1,21 @@
+uuid: 9612f3d4-0b2d-4c18-bddc-2a51a7c84441
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_mt_pst_slideshow_text
+    - node.type.mt_post
+  module:
+    - text
+id: node.mt_post.field_mt_pst_slideshow_text
+field_name: field_mt_pst_slideshow_text
+entity_type: node
+bundle: mt_post
+label: 'Slideshow text'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

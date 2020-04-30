@@ -1,0 +1,8 @@
+uuid: feed22d4-938b-454b-a104-9ac82122748e
+langcode: en
+status: true
+dependencies: {  }
+id: mt_image_with_overlaid_text
+label: 'Ιmage with overlaid text'
+revision: 0
+description: ''

@@ -1,0 +1,31 @@
+uuid: cef58ebf-d1f5-45ec-a6b4-35cbccd048e6
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:mt_background_image:79dd3637-c1da-45e6-b200-cecf0edcec67'
+  module:
+    - block_content
+    - system
+  theme:
+    - flashyplus
+id: mt_typinganimationoverimage
+theme: flashyplus
+region: highlighted
+weight: 0
+provider: null
+plugin: 'block_content:79dd3637-c1da-45e6-b200-cecf0edcec67'
+settings:
+  id: 'block_content:79dd3637-c1da-45e6-b200-cecf0edcec67'
+  label: 'Typing animation over Image'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: /blocks
+    negate: false
+    context_mapping: {  }

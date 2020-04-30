@@ -1,0 +1,8 @@
+uuid: b1236c8c-c110-42b9-a57e-6c9b2bef0992
+langcode: en
+status: true
+dependencies: {  }
+id: mt_detailed_feature
+label: 'Detailed Feature'
+revision: 0
+description: ''

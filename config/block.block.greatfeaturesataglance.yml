@@ -1,0 +1,31 @@
+uuid: 2678fe8b-bcfd-4997-a886-bf86592f36de
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:mt_icon_features:bdba9355-2aa9-4f5d-b9ef-f7932e8e3ea7'
+  module:
+    - block_content
+    - system
+  theme:
+    - flashyplus
+id: greatfeaturesataglance
+theme: flashyplus
+region: content
+weight: -11
+provider: null
+plugin: 'block_content:bdba9355-2aa9-4f5d-b9ef-f7932e8e3ea7'
+settings:
+  id: 'block_content:bdba9355-2aa9-4f5d-b9ef-f7932e8e3ea7'
+  label: 'Great features at a glance'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: "/node/62\r\n/node/64\r\n/node/65\r\n/node/67\r\n/node/68\r\n/node/69"
+    negate: false
+    context_mapping: {  }

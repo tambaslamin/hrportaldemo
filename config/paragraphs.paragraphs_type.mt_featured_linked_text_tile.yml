@@ -1,0 +1,10 @@
+uuid: 3832f584-5393-491b-a47c-221c2ad357fb
+langcode: en
+status: true
+dependencies: {  }
+id: mt_featured_linked_text_tile
+label: 'Featured Linked Text Tile'
+icon_uuid: null
+icon_default: null
+description: null
+behavior_plugins: {  }

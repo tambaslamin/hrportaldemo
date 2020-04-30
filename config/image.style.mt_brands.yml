@@ -1,0 +1,15 @@
+uuid: 22c0a433-14c0-479c-b3a8-00efa2ffe3c4
+langcode: en
+status: true
+dependencies: {  }
+name: mt_brands
+label: 'Brands (scale width to 230)'
+effects:
+  96461fe8-e625-44ce-8620-f817dbb34609:
+    uuid: 96461fe8-e625-44ce-8620-f817dbb34609
+    id: image_scale
+    weight: 1
+    data:
+      width: 230
+      height: null
+      upscale: false

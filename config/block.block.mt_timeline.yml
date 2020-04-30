@@ -1,0 +1,31 @@
+uuid: f74f5d31-faad-4fe9-983b-414657f8ad4c
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:mt_timeline:e7316304-fc32-4a0a-98a9-a9f2a2715ef8'
+  module:
+    - block_content
+    - system
+  theme:
+    - flashyplus
+id: mt_timeline
+theme: flashyplus
+region: highlighted
+weight: -23
+provider: null
+plugin: 'block_content:e7316304-fc32-4a0a-98a9-a9f2a2715ef8'
+settings:
+  id: 'block_content:e7316304-fc32-4a0a-98a9-a9f2a2715ef8'
+  label: Timeline
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: /blocks
+    negate: false
+    context_mapping: {  }

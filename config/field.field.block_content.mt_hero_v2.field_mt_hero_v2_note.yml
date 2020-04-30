@@ -1,0 +1,21 @@
+uuid: dc190829-eee4-441a-8de9-83fc8a6ece7a
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.mt_hero_v2
+    - field.storage.block_content.field_mt_hero_v2_note
+  module:
+    - text
+id: block_content.mt_hero_v2.field_mt_hero_v2_note
+field_name: field_mt_hero_v2_note
+entity_type: block_content
+bundle: mt_hero_v2
+label: Note
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

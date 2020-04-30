@@ -1,0 +1,8 @@
+uuid: 56eedfae-16ae-4b0e-8e80-6ffb3d40b0f9
+langcode: en
+status: true
+dependencies: {  }
+id: mt-company
+label: Company
+description: ''
+locked: false

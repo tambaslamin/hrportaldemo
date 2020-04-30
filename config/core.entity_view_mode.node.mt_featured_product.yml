@@ -1,0 +1,10 @@
+uuid: 2148d49b-a3db-4429-a3ab-cd2113dabc4b
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.mt_featured_product
+label: 'Featured Product'
+targetEntityType: node
+cache: true

@@ -1,0 +1,19 @@
+uuid: cc5e15a7-33c0-46cb-9c6d-05043b54ef8f
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_content
+    - text
+id: block_content.field_mt_hero_v2_description
+field_name: field_mt_hero_v2_description
+entity_type: block_content
+type: text_long
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,20 @@
+uuid: 071a44e5-546a-48b0-a603-e5390f840dd5
+langcode: en
+status: true
+dependencies:
+  module:
+    - block
+    - block_content
+id: block_content.field_mt_modal_block
+field_name: field_mt_modal_block
+entity_type: block_content
+type: entity_reference
+settings:
+  target_type: block
+module: core
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

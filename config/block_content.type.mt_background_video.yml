@@ -1,0 +1,8 @@
+uuid: 848e4b79-51f7-48ae-aa3a-0068261f2a7a
+langcode: en
+status: true
+dependencies: {  }
+id: mt_background_video
+label: 'Background Video'
+revision: 0
+description: 'Use this custom block type to create blocks with background videos.'

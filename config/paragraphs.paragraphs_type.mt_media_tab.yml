@@ -1,0 +1,10 @@
+uuid: 1e361adc-59d3-4790-9ac0-f156abf1a3f6
+langcode: en
+status: true
+dependencies: {  }
+id: mt_media_tab
+label: 'Media Tab'
+icon_uuid: null
+icon_default: null
+description: null
+behavior_plugins: {  }

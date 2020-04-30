@@ -1,0 +1,15 @@
+uuid: 525c30a6-5aea-4f4a-abb9-fb6217e463d7
+langcode: en
+status: true
+dependencies: {  }
+name: mt_media_object_medium
+label: 'Media Object Medium'
+effects:
+  306a8cc5-7da7-4d0b-8fb6-e41097ed3010:
+    uuid: 306a8cc5-7da7-4d0b-8fb6-e41097ed3010
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 150
+      height: 150
+      anchor: center-center

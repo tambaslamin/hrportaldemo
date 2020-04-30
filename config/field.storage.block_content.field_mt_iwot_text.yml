@@ -1,0 +1,19 @@
+uuid: 0242d2ac-914e-4b88-9beb-e94997903117
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_content
+    - text
+id: block_content.field_mt_iwot_text
+field_name: field_mt_iwot_text
+entity_type: block_content
+type: text_long
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

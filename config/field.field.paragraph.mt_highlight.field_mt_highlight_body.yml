@@ -1,0 +1,21 @@
+uuid: 9a92b70a-b263-4fb0-a031-61a81272b7b1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_mt_highlight_body
+    - paragraphs.paragraphs_type.mt_highlight
+  module:
+    - text
+id: paragraph.mt_highlight.field_mt_highlight_body
+field_name: field_mt_highlight_body
+entity_type: paragraph
+bundle: mt_highlight
+label: Body
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

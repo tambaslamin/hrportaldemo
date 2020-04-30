@@ -1,0 +1,31 @@
+uuid: 59507ca9-9ec4-4ad4-9f25-641d13d8effb
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:mt_hero_v2:8e75d464-105e-4d59-9ffa-c83db2b1ac38'
+  module:
+    - block_content
+    - system
+  theme:
+    - flashyplus
+id: heroblockcentered
+theme: flashyplus
+region: banner
+weight: 0
+provider: null
+plugin: 'block_content:8e75d464-105e-4d59-9ffa-c83db2b1ac38'
+settings:
+  id: 'block_content:8e75d464-105e-4d59-9ffa-c83db2b1ac38'
+  label: 'Hero Block - Centered'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: /node/68
+    negate: false
+    context_mapping: {  }

@@ -1,0 +1,35 @@
+uuid: c11e3f48-89dd-4f45-bc43-0d4c9ba6cae4
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.mt_features_slideshow
+    - field.field.block_content.mt_features_slideshow.field_mt_feature
+  module:
+    - paragraphs
+id: block_content.mt_features_slideshow.default
+targetEntityType: block_content
+bundle: mt_features_slideshow
+mode: default
+content:
+  field_mt_feature:
+    type: entity_reference_paragraphs
+    weight: 27
+    settings:
+      title: Paragraph
+      title_plural: Paragraphs
+      edit_mode: open
+      add_mode: dropdown
+      form_display_mode: default
+      default_paragraph_type: ''
+    third_party_settings: {  }
+    region: content
+  info:
+    type: string_textfield
+    weight: -5
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden: {  }

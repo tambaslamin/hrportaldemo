@@ -1,0 +1,29 @@
+uuid: 4c5a63bb-1b62-4cfe-a473-ca2d2fc50769
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_mt_pst_category
+    - node.type.mt_post
+    - taxonomy.vocabulary.mt_post_category
+id: node.mt_post.field_mt_pst_category
+field_name: field_mt_pst_category
+entity_type: node
+bundle: mt_post
+label: Category
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      mt_post_category: mt_post_category
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

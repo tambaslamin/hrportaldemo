@@ -1,0 +1,30 @@
+uuid: 4f976b09-c18c-4a29-b3b2-2435e988b821
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.mt_services
+  module:
+    - system
+    - views
+  theme:
+    - flashyplus
+id: views_block__mt_services_block_1
+theme: flashyplus
+region: content
+weight: -10
+provider: null
+plugin: 'views_block:mt_services-block_1'
+settings:
+  id: 'views_block:mt_services-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: /node/63
+    negate: false
+    context_mapping: {  }

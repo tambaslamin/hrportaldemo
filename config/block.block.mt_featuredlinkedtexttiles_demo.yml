@@ -1,0 +1,31 @@
+uuid: 3004bcfa-f911-4f8e-8edc-49616069a1d0
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:mt_fltt:863560e8-7b22-4ecb-9d55-06de4abf12fc'
+  module:
+    - block_content
+    - system
+  theme:
+    - flashyplus
+id: mt_featuredlinkedtexttiles_demo
+theme: flashyplus
+region: highlighted
+weight: -28
+provider: null
+plugin: 'block_content:863560e8-7b22-4ecb-9d55-06de4abf12fc'
+settings:
+  id: 'block_content:863560e8-7b22-4ecb-9d55-06de4abf12fc'
+  label: 'Featured Linked Text Tiles'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: /blocks
+    negate: false
+    context_mapping: {  }
