@@ -42,6 +42,10 @@ web/sites/default/default.settings.php
 web/sites/default/settings.pantheon.php
 web/sites/development.services.yml
 web/sites/example.settings.local.php
+web/sites/default/settings.local.php
+web/sites/hrportaldemo
+web/sites/hrportaldemo/*
+web/sites/sites.php
 web/sites/example.sites.php
 web/sites/README.txt
 web/update.php
